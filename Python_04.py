@@ -35,7 +35,7 @@ print(f"giá trị của s1 là: {s1}")"""
 n = int(input("nhập n ="))
 x = float(input("nhập x ="))
 i = 0
-s2 = 1
+s2 = 0
 while i <= n:
     s2 = s2 + (-x)**i
     i += 1
@@ -46,7 +46,7 @@ print(f"giá trị của s2 là: {s2}")
 import math
 n = int(input("nhập n ="))
 x = float(input("nhập x ="))
-i = 1
+i = 0
 s3 = 0
 while i <= n:
     s3 = s3 + x**i/math.factorial(i)
@@ -77,11 +77,10 @@ else:
         print("Đây là ba cạnh của một tam giác vuông")
     else:
         print("Đây không phải ba cạnh của một tam giác vuông")"""
-"""
 #Bài 5:
 import math
-i = 1
-e = 1
+i = 0
+e = 0
 a = float(input("nhập a ="))
 if a >= 1:
     print("Vui lòng nhập lại a.")
@@ -89,13 +88,7 @@ else:
     while a < 1/ math.factorial(i):
         e = e + 1/ math.factorial(i)
         i += 1
-    print(f"giá trị của e là {e}")"""
-
-
-
-
-
-
+    print(f"giá trị của e là {e}")
 
 
 
